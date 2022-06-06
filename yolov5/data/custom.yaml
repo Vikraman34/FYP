@@ -1,0 +1,6 @@
+train: D:/dataset/TSD/Data/Train # train images
+val: D:/dataset/TSD/Data/Test  # val images
+
+# Classes
+nc: 1 # number of classes
+names: ['Traffic Sign']  # class names
