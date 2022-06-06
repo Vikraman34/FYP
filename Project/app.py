@@ -54,7 +54,7 @@ def upload():
 def recog():
     global res,player
     source_path = root.filename.name
-    os.system('python D:/FYP/yolov5/detect_classify.py --source "'+source_path+'" --weights "'+weights_path+'" --save-crop --hide-conf')
+    os.system('python D:/FYP/yolov5/detect_classify_live.py --source "'+source_path+'" --weights "'+weights_path+'" --save-crop --hide-conf')
     f = open("tmp.txt","r")
     signs = f.read().replace('\n',' ').split()
     signs = set(signs)
